@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		79B2D5962B7E77D300C79E31 /* Mobiquity_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B2D5952B7E77D300C79E31 /* Mobiquity_TestApp.swift */; };
-		79B2D5982B7E77D300C79E31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B2D5972B7E77D300C79E31 /* ContentView.swift */; };
 		79B2D59A2B7E77D700C79E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B2D5992B7E77D700C79E31 /* Assets.xcassets */; };
 		79B2D59D2B7E77D700C79E31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B2D59C2B7E77D700C79E31 /* Preview Assets.xcassets */; };
 		79B2D5A62B7E78EE00C79E31 /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 79B2D5A52B7E78EE00C79E31 /* Shared */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		79B2D5922B7E77D300C79E31 /* Mobiquity Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobiquity Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B2D5952B7E77D300C79E31 /* Mobiquity_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobiquity_TestApp.swift; sourceTree = "<group>"; };
-		79B2D5972B7E77D300C79E31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79B2D5992B7E77D700C79E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79B2D59C2B7E77D700C79E31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				79B2D5952B7E77D300C79E31 /* Mobiquity_TestApp.swift */,
-				79B2D5972B7E77D300C79E31 /* ContentView.swift */,
 				79B2D5992B7E77D700C79E31 /* Assets.xcassets */,
 				79B2D59B2B7E77D700C79E31 /* Preview Content */,
 			);
@@ -145,7 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79B2D5982B7E77D300C79E31 /* ContentView.swift in Sources */,
 				79B2D5962B7E77D300C79E31 /* Mobiquity_TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
