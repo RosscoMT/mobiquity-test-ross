@@ -7,20 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7966AC362B8122DE00BB65D2 /* HistoryViewDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7966AC352B8122DE00BB65D2 /* HistoryViewDataModel.swift */; };
+		7966AC3F2B81374200BB65D2 /* Mobiquity_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7966AC3E2B81374200BB65D2 /* Mobiquity_TestTests.swift */; };
 		79B2D5962B7E77D300C79E31 /* Mobiquity_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B2D5952B7E77D300C79E31 /* Mobiquity_TestApp.swift */; };
+		79B2D5982B7E77D300C79E31 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B2D5972B7E77D300C79E31 /* MainView.swift */; };
 		79B2D59A2B7E77D700C79E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B2D5992B7E77D700C79E31 /* Assets.xcassets */; };
 		79B2D59D2B7E77D700C79E31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B2D59C2B7E77D700C79E31 /* Preview Assets.xcassets */; };
 		79B2D5A62B7E78EE00C79E31 /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 79B2D5A52B7E78EE00C79E31 /* Shared */; };
+		79B2D5A92B7E7A9A00C79E31 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B2D5A82B7E7A9A00C79E31 /* HistoryView.swift */; };
+		79B2D5AD2B7E7BCF00C79E31 /* HistoryDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B2D5AC2B7E7BCF00C79E31 /* HistoryDataModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7966AC402B81374200BB65D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79B2D58A2B7E77D300C79E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79B2D5912B7E77D300C79E31;
+			remoteInfo = "Mobiquity Test";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7966AC352B8122DE00BB65D2 /* HistoryViewDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewDataModel.swift; sourceTree = "<group>"; };
+		7966AC3C2B81374200BB65D2 /* Mobiquity TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobiquity TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7966AC3E2B81374200BB65D2 /* Mobiquity_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobiquity_TestTests.swift; sourceTree = "<group>"; };
 		79B2D5922B7E77D300C79E31 /* Mobiquity Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobiquity Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B2D5952B7E77D300C79E31 /* Mobiquity_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobiquity_TestApp.swift; sourceTree = "<group>"; };
+		79B2D5972B7E77D300C79E31 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		79B2D5992B7E77D700C79E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79B2D59C2B7E77D700C79E31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79B2D5A82B7E7A9A00C79E31 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		79B2D5AC2B7E7BCF00C79E31 /* HistoryDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDataModel.swift; sourceTree = "<group>"; };
+		79B2D5B12B8106CC00C79E31 /* Mobiquity-Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mobiquity-Test-Info.plist"; sourceTree = SOURCE_ROOT; };
+		79C94E892B81380600AB12B8 /* Shared */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Shared; path = ../Shared; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7966AC392B81374200BB65D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79B2D58F2B7E77D300C79E31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,11 +62,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7966AC372B81356D00BB65D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7966AC3D2B81374200BB65D2 /* Mobiquity TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7966AC3E2B81374200BB65D2 /* Mobiquity_TestTests.swift */,
+			);
+			path = "Mobiquity TestTests";
+			sourceTree = "<group>";
+		};
 		79B2D5892B7E77D300C79E31 = {
 			isa = PBXGroup;
 			children = (
+				79C94E892B81380600AB12B8 /* Shared */,
 				79B2D5942B7E77D300C79E31 /* Mobiquity Test */,
+				7966AC3D2B81374200BB65D2 /* Mobiquity TestTests */,
 				79B2D5932B7E77D300C79E31 /* Products */,
+				7966AC372B81356D00BB65D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				79B2D5922B7E77D300C79E31 /* Mobiquity Test.app */,
+				7966AC3C2B81374200BB65D2 /* Mobiquity TestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				79B2D5952B7E77D300C79E31 /* Mobiquity_TestApp.swift */,
+				79B2D5A72B7E79C200C79E31 /* Views */,
+				79B2D5AE2B7FA9EE00C79E31 /* Operations */,
 				79B2D5992B7E77D700C79E31 /* Assets.xcassets */,
+				79B2D5B12B8106CC00C79E31 /* Mobiquity-Test-Info.plist */,
 				79B2D59B2B7E77D700C79E31 /* Preview Content */,
 			);
 			path = "Mobiquity Test";
@@ -66,9 +118,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		79B2D5A72B7E79C200C79E31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79B2D5972B7E77D300C79E31 /* MainView.swift */,
+				79B2D5A82B7E7A9A00C79E31 /* HistoryView.swift */,
+				79B2D5AA2B7E7B0800C79E31 /* Model */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79B2D5AA2B7E7B0800C79E31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79B2D5AC2B7E7BCF00C79E31 /* HistoryDataModel.swift */,
+				7966AC352B8122DE00BB65D2 /* HistoryViewDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79B2D5AE2B7FA9EE00C79E31 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7966AC3B2B81374200BB65D2 /* Mobiquity TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7966AC422B81374200BB65D2 /* Build configuration list for PBXNativeTarget "Mobiquity TestTests" */;
+			buildPhases = (
+				7966AC382B81374200BB65D2 /* Sources */,
+				7966AC392B81374200BB65D2 /* Frameworks */,
+				7966AC3A2B81374200BB65D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7966AC412B81374200BB65D2 /* PBXTargetDependency */,
+			);
+			name = "Mobiquity TestTests";
+			productName = "Mobiquity TestTests";
+			productReference = 7966AC3C2B81374200BB65D2 /* Mobiquity TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		79B2D5912B7E77D300C79E31 /* Mobiquity Test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79B2D5A02B7E77D700C79E31 /* Build configuration list for PBXNativeTarget "Mobiquity Test" */;
@@ -99,6 +195,10 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					7966AC3B2B81374200BB65D2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 79B2D5912B7E77D300C79E31;
+					};
 					79B2D5912B7E77D300C79E31 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -121,11 +221,19 @@
 			projectRoot = "";
 			targets = (
 				79B2D5912B7E77D300C79E31 /* Mobiquity Test */,
+				7966AC3B2B81374200BB65D2 /* Mobiquity TestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7966AC3A2B81374200BB65D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79B2D5902B7E77D300C79E31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,17 +246,81 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7966AC382B81374200BB65D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7966AC3F2B81374200BB65D2 /* Mobiquity_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79B2D58E2B7E77D300C79E31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B2D5982B7E77D300C79E31 /* MainView.swift in Sources */,
+				79B2D5A92B7E7A9A00C79E31 /* HistoryView.swift in Sources */,
+				7966AC362B8122DE00BB65D2 /* HistoryViewDataModel.swift in Sources */,
+				79B2D5AD2B7E7BCF00C79E31 /* HistoryDataModel.swift in Sources */,
 				79B2D5962B7E77D300C79E31 /* Mobiquity_TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7966AC412B81374200BB65D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79B2D5912B7E77D300C79E31 /* Mobiquity Test */;
+			targetProxy = 7966AC402B81374200BB65D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		7966AC432B81374200BB65D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96FHK2P7E8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiquity.test.Mobiquity-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobiquity Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mobiquity Test";
+			};
+			name = Debug;
+		};
+		7966AC442B81374200BB65D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96FHK2P7E8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiquity.test.Mobiquity-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobiquity Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mobiquity Test";
+			};
+			name = Release;
+		};
 		79B2D59E2B7E77D700C79E31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -279,12 +451,13 @@
 				DEVELOPMENT_TEAM = 96FHK2P7E8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = "Mobiquity-Test-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,12 +482,13 @@
 				DEVELOPMENT_TEAM = 96FHK2P7E8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = "Mobiquity-Test-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,6 +505,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7966AC422B81374200BB65D2 /* Build configuration list for PBXNativeTarget "Mobiquity TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7966AC432B81374200BB65D2 /* Debug */,
+				7966AC442B81374200BB65D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		79B2D58D2B7E77D300C79E31 /* Build configuration list for PBXProject "Mobiquity Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

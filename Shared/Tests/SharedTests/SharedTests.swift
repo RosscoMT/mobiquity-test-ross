@@ -2,11 +2,37 @@ import XCTest
 @testable import Shared
 
 final class SharedTests: XCTestCase {
-    func testExample() throws {
-        // XCTest Documentation
-        // https://developer.apple.com/documentation/xctest
-
-        // Defining Test Cases and Test Methods
-        // https://developer.apple.com/documentation/xctest/defining_test_cases_and_test_methods
+    
+    func testSuccessfulDataRequest() async throws {
+    
+        let dataService = DataService.init(buildType: .development)
+        
+        guard let url: URL = dataService.search(phrase: "Dog") else {
+            XCTFail("Failed to compose request")
+            return
+        }
+        
+        let results = await dataService.dataRequest(request: url)
+        
+        switch results {
+        case .success(let success):
+            XCTAssertGreaterThan(success.count, 0)
+        case .failure(let failure):
+            XCTFail()
+        }
+    }
+    
+    func testFailureDataRequest() async throws {
+        
+        let dataService = DataService.init(buildType: .development)
+  
+        let results = await dataService.dataRequest(request: URL(string: "https://api.flickr.com")!)
+        
+        switch results {
+        case .failure(let failure):
+            XCTAssertNotNil(failure)
+        default:
+            XCTFail()
+        }
     }
 }
