@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import Shared
 
 @main
 struct Mobiquity_TestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Shared(view: MainView(service: .init(buildType: .development)))
         }
     }
 }
