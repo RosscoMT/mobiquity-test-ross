@@ -48,10 +48,8 @@ public struct DataService {
             .init(name: "method", value: ServiceRequest.photoSearch.rawValue),
             .init(name: "api_key", value: Credentials.apiKey),
             .init(name: "text", value: phrase),
-            .init(name: "nojsoncallback", value: "1"),
-            .init(name: "format", value: "json"),
-            .init(name: "safe_search", value: "1")
         ])
+        url?.append(queryItems: URLQueryItem.standardSet())
         return url
     }
 }
@@ -61,6 +59,14 @@ extension Array where Element == FlickrPhotoDataModel {
     /// Compose an array of image urls
     public func urlImageRequests() -> [URL] {
         return self.map({ Factory.imageURL(data: $0)})
+    }
+}
+
+extension URLQueryItem {
+    
+    // Standard parameters used for flickr data interaction
+    static func standardSet() -> [URLQueryItem] {
+        return [.init(name: "nojsoncallback", value: "1"), .init(name: "format", value: "json"), .init(name: "safe_search", value: "1")]
     }
 }
 
