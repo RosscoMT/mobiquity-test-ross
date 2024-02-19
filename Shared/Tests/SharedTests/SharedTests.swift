@@ -6,7 +6,7 @@ final class SharedTests: XCTestCase {
     /// Tests for a successful search
     func testSuccessfulDataRequest() async throws {
     
-        let dataService = DataService.init(buildType: .development)
+        let dataService = DataService(buildType: .development)
         
         guard let url: URL = dataService.search(phrase: "Dog") else {
             XCTFail("Failed to compose request")
@@ -19,7 +19,7 @@ final class SharedTests: XCTestCase {
         case .success(let success):
             XCTAssertGreaterThan(success.count, 0)
         case .failure(let failure):
-            XCTFail()
+            XCTFail(failure.localizedDescription)
         }
     }
     
