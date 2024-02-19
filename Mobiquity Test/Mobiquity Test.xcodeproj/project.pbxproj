@@ -102,7 +102,6 @@
 			children = (
 				79B2D5952B7E77D300C79E31 /* Mobiquity_TestApp.swift */,
 				79B2D5A72B7E79C200C79E31 /* Views */,
-				79B2D5AE2B7FA9EE00C79E31 /* Operations */,
 				79B2D5992B7E77D700C79E31 /* Assets.xcassets */,
 				79B2D5B12B8106CC00C79E31 /* Mobiquity-Test-Info.plist */,
 				79B2D59B2B7E77D700C79E31 /* Preview Content */,
@@ -135,13 +134,6 @@
 				7966AC352B8122DE00BB65D2 /* HistoryViewDataModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		79B2D5AE2B7FA9EE00C79E31 /* Operations */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Operations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
