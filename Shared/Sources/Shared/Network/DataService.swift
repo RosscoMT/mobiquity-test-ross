@@ -45,7 +45,7 @@ public struct DataService {
         var url = URL(string: "https://api.flickr.com/services/rest/")
         url?.append(queryItems: [
             .init(name: "method", value: ServiceRequest.photoSearch.rawValue),
-            .init(name: "api_key", value: "9d80408986a7af017c5270fd6578d9f5"),
+            .init(name: "api_key", value: Credentials.apiKey),
             .init(name: "text", value: phrase),
             .init(name: "nojsoncallback", value: "1"),
             .init(name: "format", value: "json"),
