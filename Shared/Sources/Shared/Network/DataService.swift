@@ -16,6 +16,7 @@ public struct DataService {
         self.buildType = buildType
     }
     
+    /// Data request for fetching the images from a phrase
     public func dataRequest(request: URL) async -> Result<[FlickrPhotoDataModel], FlickrErrors> {
         
         do {
@@ -57,6 +58,7 @@ public struct DataService {
 
 extension Array where Element == FlickrPhotoDataModel {
     
+    /// Compose an array of image urls
     public func urlImageRequests() -> [URL] {
         return self.map({ Factory.imageURL(data: $0)})
     }

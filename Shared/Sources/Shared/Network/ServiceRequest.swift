@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// List of service requests
 public enum ServiceRequest: String {
     case photoSearch = "flickr.photos.search"
 }

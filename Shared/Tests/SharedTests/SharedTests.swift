@@ -3,6 +3,7 @@ import XCTest
 
 final class SharedTests: XCTestCase {
     
+    /// Tests for a successful search
     func testSuccessfulDataRequest() async throws {
     
         let dataService = DataService.init(buildType: .development)
@@ -22,6 +23,7 @@ final class SharedTests: XCTestCase {
         }
     }
     
+    /// Tests for a deliberate failure
     func testFailureDataRequest() async throws {
         
         let dataService = DataService.init(buildType: .development)

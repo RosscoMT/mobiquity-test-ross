@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Enum for the build types of the app
 public enum BuildType {
     case development
     case production

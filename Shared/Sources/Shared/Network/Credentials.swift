@@ -7,7 +7,7 @@
 
 import Foundation
 
-///Storage of the
+/// Storage of the apps credentials
 enum Credentials {
     static var apiKey = "855c1aec21159ada77f577284f483c20"
 }
